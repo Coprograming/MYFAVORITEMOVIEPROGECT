@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		4A517E5E1D2429B800122BFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A517E5D1D2429B800122BFC /* AppDelegate.swift */; };
 		4A517E601D2429B800122BFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A517E5F1D2429B800122BFC /* ViewController.swift */; };
-		4A517E631D2429B800122BFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A517E611D2429B800122BFC /* Main.storyboard */; };
 		4A517E661D2429B800122BFC /* MYFAVORITEMOVIEPROGECT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4A517E641D2429B800122BFC /* MYFAVORITEMOVIEPROGECT.xcdatamodeld */; };
 		4A517E681D2429B800122BFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A517E671D2429B800122BFC /* Assets.xcassets */; };
 		4A517E6B1D2429B800122BFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A517E691D2429B800122BFC /* LaunchScreen.storyboard */; };
+		4A517E771D242A7F00122BFC /* Movies+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A517E751D242A7F00122BFC /* Movies+CoreDataProperties.swift */; };
+		4A517E781D242A7F00122BFC /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A517E761D242A7F00122BFC /* Movies.swift */; };
+		4A517E7A1D242AD900122BFC /* MoviesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A517E791D242AD900122BFC /* MoviesCell.swift */; };
+		4A517E7C1D242B1F00122BFC /* CreateMovieVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A517E7B1D242B1F00122BFC /* CreateMovieVC.swift */; };
+		4A517E7E1D242B9400122BFC /* TableViewCellDisplayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A517E7D1D242B9400122BFC /* TableViewCellDisplayVC.swift */; };
+		4A517E811D244AE100122BFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A517E801D244AE100122BFC /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4A517E5A1D2429B800122BFC /* MYFAVORITEMOVIEPROGECT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MYFAVORITEMOVIEPROGECT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A517E5D1D2429B800122BFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A517E5F1D2429B800122BFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4A517E621D2429B800122BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4A517E651D2429B800122BFC /* MYFAVORITEMOVIEPROGECT.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MYFAVORITEMOVIEPROGECT.xcdatamodel; sourceTree = "<group>"; };
 		4A517E671D2429B800122BFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A517E6A1D2429B800122BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A517E6C1D2429B800122BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A517E751D242A7F00122BFC /* Movies+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Movies+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4A517E761D242A7F00122BFC /* Movies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
+		4A517E791D242AD900122BFC /* MoviesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesCell.swift; sourceTree = "<group>"; };
+		4A517E7B1D242B1F00122BFC /* CreateMovieVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateMovieVC.swift; sourceTree = "<group>"; };
+		4A517E7D1D242B9400122BFC /* TableViewCellDisplayVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellDisplayVC.swift; sourceTree = "<group>"; };
+		4A517E7F1D244AE100122BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,44 @@
 		4A517E5C1D2429B800122BFC /* MYFAVORITEMOVIEPROGECT */ = {
 			isa = PBXGroup;
 			children = (
+				4A517E721D242A1800122BFC /* Controller */,
+				4A517E731D242A2400122BFC /* View */,
+				4A517E741D242A3100122BFC /* Model */,
 				4A517E5D1D2429B800122BFC /* AppDelegate.swift */,
-				4A517E5F1D2429B800122BFC /* ViewController.swift */,
-				4A517E611D2429B800122BFC /* Main.storyboard */,
 				4A517E671D2429B800122BFC /* Assets.xcassets */,
-				4A517E691D2429B800122BFC /* LaunchScreen.storyboard */,
 				4A517E6C1D2429B800122BFC /* Info.plist */,
 				4A517E641D2429B800122BFC /* MYFAVORITEMOVIEPROGECT.xcdatamodeld */,
 			);
 			path = MYFAVORITEMOVIEPROGECT;
+			sourceTree = "<group>";
+		};
+		4A517E721D242A1800122BFC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4A517E5F1D2429B800122BFC /* ViewController.swift */,
+				4A517E7B1D242B1F00122BFC /* CreateMovieVC.swift */,
+				4A517E7D1D242B9400122BFC /* TableViewCellDisplayVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4A517E731D242A2400122BFC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4A517E691D2429B800122BFC /* LaunchScreen.storyboard */,
+				4A517E801D244AE100122BFC /* Main.storyboard */,
+				4A517E791D242AD900122BFC /* MoviesCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4A517E741D242A3100122BFC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4A517E751D242A7F00122BFC /* Movies+CoreDataProperties.swift */,
+				4A517E761D242A7F00122BFC /* Movies.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,9 +165,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A517E811D244AE100122BFC /* Main.storyboard in Resources */,
 				4A517E6B1D2429B800122BFC /* LaunchScreen.storyboard in Resources */,
 				4A517E681D2429B800122BFC /* Assets.xcassets in Resources */,
-				4A517E631D2429B800122BFC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +178,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A517E781D242A7F00122BFC /* Movies.swift in Sources */,
+				4A517E7E1D242B9400122BFC /* TableViewCellDisplayVC.swift in Sources */,
+				4A517E771D242A7F00122BFC /* Movies+CoreDataProperties.swift in Sources */,
 				4A517E601D2429B800122BFC /* ViewController.swift in Sources */,
+				4A517E7C1D242B1F00122BFC /* CreateMovieVC.swift in Sources */,
 				4A517E5E1D2429B800122BFC /* AppDelegate.swift in Sources */,
+				4A517E7A1D242AD900122BFC /* MoviesCell.swift in Sources */,
 				4A517E661D2429B800122BFC /* MYFAVORITEMOVIEPROGECT.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,20 +192,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4A517E611D2429B800122BFC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4A517E621D2429B800122BFC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4A517E691D2429B800122BFC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				4A517E6A1D2429B800122BFC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4A517E801D244AE100122BFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A517E7F1D244AE100122BFC /* Base */,
+			);
+			name = Main.storyboard;
+			path = ../../FavoriteMoviesExcersies/FavoriteMoviesExcersies;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
